@@ -9,3 +9,5 @@ ref,year,virus,cells,FBS% pre, FBS% post, penn %,strep %, amph %
 8,2022,Zika,Vero hCMEC/D3Lifeact-EGFP,10,2
 VI6,1988,denge type 1,C6/36,?,0.2
 VI13,2020,SARS-CoV-2,Vero,10,5,
+SPT3, need to know if Quantum dot incorporation step was significant time or not, max 36 hours, unlikely to be pertinent here. 
+SPT4,

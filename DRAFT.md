@@ -52,7 +52,10 @@ Characteristic CPE descriptors were extracted from Table 7 of the CLSI M41 Guide
 
 Next, the same mapping procedure was applied to the CRO image descriptions to generate a second incidence table (CLSI descriptor set + image descriptions). Only five of the original ten CLSI descriptors appeared in the CRO descriptions. A sixth term, ``Dying Cells'', emerged directly from the CRO text and was retained as a distinct category (Dy) rather than being forced into the CLSI ``nonspecific degeneration'' bin. The resulting \textit{CPE descriptor set} used for ground truth and all subsequent analyses therefore consisted of: Dying cells (Dy), Rounded (Ro), Vacuolation (V), Detached (D), Granularity (G), and Refractile (Re).
 
-
+### Indentification of Health cell culture descriptors
+The CRO descriptions were also reviewed for healthy cell culture descriptors. 
+looked for repeated terms 
+AI verified.
 
 ## results
 
