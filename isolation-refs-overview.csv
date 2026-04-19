@@ -1,0 +1,11 @@
+ref,year,virus,cells,FBS% pre, FBS% post, penn %,strep %, amph %
+1,2013,SL-CoV-WIV1,Vero,10,2,
+2,1983,primate type-C,many,5,1,
+3,2020,SARS-CoV-2,Vero,10,2,
+4,2019,HRSV,HEP-2,?,2,
+5,2019,denge type 2,C6/36,?,2,
+6,2002,HSV1,HCE,5,1,
+7,2015,influenza,Vero,10,0.2
+8,2022,Zika,Vero hCMEC/D3Lifeact-EGFP,10,2
+VI6,1988,denge type 1,C6/36,?,0.2
+VI13,2020,SARS-CoV-2,Vero,10,5,
