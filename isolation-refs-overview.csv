@@ -8,6 +8,14 @@ VI15,2019,DENV-2,C6/36,MEM,10**,2,^^,^^,^^,https://pmc.ncbi.nlm.nih.gov/articles
 VI16,2002,HSV-1,Vero,MEM.5,1,-,-,-,https://pubmed.ncbi.nlm.nih.gov/11983023/
 VI18,2015,influenza,Vero,DMEM,10,0.2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/25448099/
 SPT10,2022,ZIKV,Vero,DMEM,10,2,100--,0.1--,0,https://pubmed.ncbi.nlm.nih.gov/25448099/
+VI23,2024,SARS-CoV-2,Vero E6 / Vero E6 TMPRSS2 / Vero E6 ACE2 TMPRSS2,DMEM,10,2,100,0.1,0,https://pmc.ncbi.nlm.nih.gov/articles/PMC12870042/
+VI24,2011,Influenza A and B,Vero (CCL81),OptiPRO SFM (serum-free) or EMEM,0,0,-,-,0.25 (added for enhanced isolation),https://pmc.ncbi.nlm.nih.gov/articles/PMC3194987/
+VI25,2019,EBOV (Makona-C05 and Yambuko-Mayinga),Vero E6; Huh-7; monocyte-derived macrophages (MDM),DMEM (or MEM-α for some passages),10,2-10,100,0.1,0.25,https://www.mdpi.com/1999-4915/11/2/161 (or PMC6410085)
+VI26,~2020,PRRSV (porcine reproductive and respiratory syndrome virus),MARC-145 (or similar porcine kidney lines),DMEM,8,2,100,0.1,- (high conc wash step with pen/strep),https://rr-asia.woah.org/app/uploads/2020/11/8-virus-isolation-li-shuo.pdf
+VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLAM derivatives),DMEM,10,2,100,0.1,0 (1% of 10000 IU/ml pen + 10 mg/ml strep stock),https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b (protocol; similar in multiple PPRV papers)
+VI28,2024 (or recent),SARS-CoV-2,Vero E6 / VeroE6/TMPRSS2 / Vero E6-TMPRSS2-T2A-ACE2,DMEM,10,2,100,0.1,0.25 (via 1% Antibiotic-Antimycotic in isolation medium),https://www.nature.com/articles/s41598-024-75038-4
+VI29,2014,Rabies virus (PV strain),BSR (Baby Hamster Kidney clone),DMEM,10,10,not specified (none detailed),not specified (none detailed),not specified (none detailed),https://pmc.ncbi.nlm.nih.gov/articles/PMC4255371/
+VI30,~2020-2023,Influenza A (IAV clinical/swine isolates),MDCK (various lines),EMEM or DMEM/MEM-α,5-10,0-2 (often serum-free + TPCK-trypsin),100,0.1,0 (or variable; some use gentamicin/nystatin),e.g., https://pmc.ncbi.nlm.nih.gov/articles/PMC12964720/ or similar MDCK flu isolation papers (many variants)
 
 *some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
 + hernorrhagic fever with renal syndrome
