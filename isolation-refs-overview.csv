@@ -18,7 +18,7 @@ Next step. use grok to confirm/extend the data above.
 ^^ authors report growth medium as "MEM with 2% FBS and antibiotics"
 ++ Equal volumes of MEM + Ham’s nutrient mixture F-12 as basal medium.
 -- Estimated from 1% (v/v) Invitrogen penicillin-streptomycin (standard 100× stock) in Vero growth medium. Amphotericin B: not used.
-***Antibiotic concentrations in the Vero cell resuspension medium (infection/isolation stage) were estimated from the multiples reported in the paper. Exact units (IU/mL or mg/mL) are not stated; values are derived from the standard formulation of the referenced commercial reagent.
+***Estimated from 2× GIBCO antibiotics/antimycotics (standard 100× stock) + 2× penicillin/streptomycin + 2× amphotericin B in Vero resuspension medium for virus isolation (DMEM + 10% FBS)
 
 SPT articles have been specifically omitted because the culture time at low FBS is sometimes irrelevantely short.
 VI6 was excluded because it uses C6/36 mosquito cells, and Bovine serum albumin, not FBS. Also, due to lack of info, and the conditions of the cultures in the paper, the pre-innoculation meduim is difficult to guestimate. 0,VI6,1988,DENV-1,C6/36,?,0.2
