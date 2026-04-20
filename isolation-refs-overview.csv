@@ -1,15 +1,24 @@
-grokConf,ref,year,virus,cells,FBS% pre, FBS% post, penn %,strep %, amph %
-0,1,2013,SL-CoV-WIV1,Vero,10,2,
-0,2,1983,primate type-C,many,5,1,
-0,3,2020,SARS-CoV-2,Vero,10,2,
-0,4,2019,HRSV,HEP-2,?,2,
-0,5,2019,denge type 2,C6/36,?,2,
-0,6,2002,HSV1,HCE,5,1,
-0,7,2015,influenza,Vero,10,0.2
-0,8,2022,Zika,Vero hCMEC/D3Lifeact-EGFP,10,2
-0,VI6,1988,denge type 1,C6/36,?,0.2
-0,VI13,2020,SARS-CoV-2,Vero,10,5,
+ID,year,virus,cells*,Base Meduim,FBS% pre, FBS% post, penn (IU/ml),strep (mg/ml), amph (mg/ml),link
+VI2,2013,SL-CoV-WIV1,Vero E6,DMEM,10,2,200,0.2,0.5,https://pubmed.ncbi.nlm.nih.gov/24172901/
+VI4,1983,HFRS+,Vero E6,EMEM,5-10,1-2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/6134854/
+VI8,2020,SARS-CoV-2,Vero E6,DMEM,10,2,100,-,15,https://pubmed.ncbi.nlm.nih.gov/6134854/
+VI13,2020,SARS-CoV-2,Vero CCL-81,DMEM,5-10,10,200***,0.2***,0.0005***,https://wwwnc.cdc.gov/eid/article/26/6/20-0516_article
+VI14,2019,HRSV,HEP-2,DMEM,10**,2,100,-,100,https://doi.org/10.1016/j.bjid.2019.10.007
+VI15,2019,DENV-2,C6/36,MEM,10**,2,^^,^^,^^,https://pmc.ncbi.nlm.nih.gov/articles/PMC6823047/
+VI16,2002,HSV-1,Vero,MEM.5,1,-,-,-,https://pubmed.ncbi.nlm.nih.gov/11983023/
+VI18,2015,influenza,Vero,DMEM,10,0.2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/25448099/
+SPT10,2022,ZIKV,Vero,DMEM,10,2,100--,0.1--,0,https://pubmed.ncbi.nlm.nih.gov/25448099/
+
+
 
 Next step. use grok to confirm/extend the data above.
-for question marks for FBS% pre column, it could be appropriate to assume ATCC recommended FB% for the cell line, and add ** note to each case of this. ths cannot apply for FBS% post. 
+*some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
++ hernorrhagic fever with renal syndrome
+** No mention of pre-innoculation meduim. We assume ATCC recommended FBS % for the cell line thawing and pre innoculation passages.
+^^ authors report growth medium as "MEM with 2% FBS and antibiotics"
+++ Equal volumes of MEM + Ham’s nutrient mixture F-12 as basal medium.
+-- Estimated from 1% (v/v) Invitrogen penicillin-streptomycin (standard 100× stock) in Vero growth medium. Amphotericin B: not used.
+***Antibiotic concentrations in the Vero cell resuspension medium (infection/isolation stage) were estimated from the multiples reported in the paper. Exact units (IU/mL or mg/mL) are not stated; values are derived from the standard formulation of the referenced commercial reagent.
+
 SPT articles have been specifically omitted because the culture time at low FBS is sometimes irrelevantely short.
+VI6 was excluded because it uses C6/36 mosquito cells, and Bovine serum albumin, not FBS. Also, due to lack of info, and the conditions of the cultures in the paper, the pre-innoculation meduim is difficult to guestimate. 0,VI6,1988,DENV-1,C6/36,?,0.2
