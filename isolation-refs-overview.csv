@@ -1,4 +1,4 @@
-ID,year,virus,cells*,Base Meduim,FBS% pre, FBS% post, penn (IU/ml),strep (mg/ml), amph (mg/ml),link
+ID, year, virus, cells*, Base Medium, FBS% pre-inoculation, FBS% post-inculcation, penicillin (IU/ml),streptomycin (mg/ml), amphotericin (mg/ml),link
 VI2,2013,SL-CoV-WIV1,Vero E6,DMEM,10,2,200,0.2,0.5,https://pubmed.ncbi.nlm.nih.gov/24172901/
 VI4,1983,HFRS+,Vero E6,EMEM,5-10,1-2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/6134854/
 VI8,2020,SARS-CoV-2,Vero E6,DMEM,10,2,100,-,15,https://pubmed.ncbi.nlm.nih.gov/6134854/
@@ -11,7 +11,7 @@ SPT10,2022,ZIKV,Vero,DMEM,10,2,100--,0.1--,0,https://pubmed.ncbi.nlm.nih.gov/254
 
 *some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
 + hernorrhagic fever with renal syndrome
-** No mention of pre-innoculation meduim. We assume ATCC recommended FBS % for the cell line thawing and pre innoculation passages.
+** No mention of pre-inoculation medium. We assume ATCC recommended FBS % for the cell line thawing and pre inoculation passages.
 ^^ authors report growth medium as "MEM with 2% FBS and antibiotics"
 ++ Equal volumes of MEM + Ham’s nutrient mixture F-12 as basal medium.
 -- Estimated from 1% (v/v) Invitrogen penicillin-streptomycin (standard 100× stock) in Vero growth medium. Amphotericin B: not used.
