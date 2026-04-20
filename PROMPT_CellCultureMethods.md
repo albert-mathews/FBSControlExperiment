@@ -7,8 +7,10 @@ you are to extract the following information.
 3-identify the concentration of the following reagents employed for normal growth of the cell cultures
 4-identify the concentration of the following reagents employed for the viral infection stage of the cell culture
 5-reagents
-	1-fetal bovine serum
-	2-penicillin
-	3-Amphotericin B
-	4-Streptomycin
+	5.1-fetal bovine serum
+	5.2-penicillin
+	5.3-Amphotericin B
+	5.4-Streptomycin
+	5.5 other. list any other regaents and their concentrations.
+6-list the base/basal meduim used for the growth medium. e.g. EMEM, DMEM, RPMI 1640, etc.
 

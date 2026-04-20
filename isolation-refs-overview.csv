@@ -1,13 +1,15 @@
-ref,year,virus,cells,FBS% pre, FBS% post, penn %,strep %, amph %
-1,2013,SL-CoV-WIV1,Vero,10,2,
-2,1983,primate type-C,many,5,1,
-3,2020,SARS-CoV-2,Vero,10,2,
-4,2019,HRSV,HEP-2,?,2,
-5,2019,denge type 2,C6/36,?,2,
-6,2002,HSV1,HCE,5,1,
-7,2015,influenza,Vero,10,0.2
-8,2022,Zika,Vero hCMEC/D3Lifeact-EGFP,10,2
-VI6,1988,denge type 1,C6/36,?,0.2
-VI13,2020,SARS-CoV-2,Vero,10,5,
-SPT3, need to know if Quantum dot incorporation step was significant time or not, max 36 hours, unlikely to be pertinent here. 
-SPT4,
+grokConf,ref,year,virus,cells,FBS% pre, FBS% post, penn %,strep %, amph %
+0,1,2013,SL-CoV-WIV1,Vero,10,2,
+0,2,1983,primate type-C,many,5,1,
+0,3,2020,SARS-CoV-2,Vero,10,2,
+0,4,2019,HRSV,HEP-2,?,2,
+0,5,2019,denge type 2,C6/36,?,2,
+0,6,2002,HSV1,HCE,5,1,
+0,7,2015,influenza,Vero,10,0.2
+0,8,2022,Zika,Vero hCMEC/D3Lifeact-EGFP,10,2
+0,VI6,1988,denge type 1,C6/36,?,0.2
+0,VI13,2020,SARS-CoV-2,Vero,10,5,
+
+Next step. use grok to confirm/extend the data above.
+for question marks for FBS% pre column, it could be appropriate to assume ATCC recommended FB% for the cell line, and add ** note to each case of this. ths cannot apply for FBS% post. 
+SPT articles have been specifically omitted because the culture time at low FBS is sometimes irrelevantely short.
