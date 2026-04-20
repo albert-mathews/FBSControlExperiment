@@ -9,9 +9,6 @@ VI16,2002,HSV-1,Vero,MEM.5,1,-,-,-,https://pubmed.ncbi.nlm.nih.gov/11983023/
 VI18,2015,influenza,Vero,DMEM,10,0.2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/25448099/
 SPT10,2022,ZIKV,Vero,DMEM,10,2,100--,0.1--,0,https://pubmed.ncbi.nlm.nih.gov/25448099/
 
-
-
-Next step. use grok to confirm/extend the data above.
 *some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
 + hernorrhagic fever with renal syndrome
 ** No mention of pre-innoculation meduim. We assume ATCC recommended FBS % for the cell line thawing and pre innoculation passages.
@@ -19,6 +16,3 @@ Next step. use grok to confirm/extend the data above.
 ++ Equal volumes of MEM + Ham’s nutrient mixture F-12 as basal medium.
 -- Estimated from 1% (v/v) Invitrogen penicillin-streptomycin (standard 100× stock) in Vero growth medium. Amphotericin B: not used.
 ***Estimated from 2× GIBCO antibiotics/antimycotics (standard 100× stock) + 2× penicillin/streptomycin + 2× amphotericin B in Vero resuspension medium for virus isolation (DMEM + 10% FBS)
-
-SPT articles have been specifically omitted because the culture time at low FBS is sometimes irrelevantely short.
-VI6 was excluded because it uses C6/36 mosquito cells, and Bovine serum albumin, not FBS. Also, due to lack of info, and the conditions of the cultures in the paper, the pre-innoculation meduim is difficult to guestimate. 0,VI6,1988,DENV-1,C6/36,?,0.2
