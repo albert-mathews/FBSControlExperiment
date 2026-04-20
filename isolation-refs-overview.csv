@@ -16,6 +16,12 @@ VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLA
 VI28,2024 (or recent),SARS-CoV-2,Vero E6 / VeroE6/TMPRSS2 / Vero E6-TMPRSS2-T2A-ACE2,DMEM,10,2,100,0.1,0.25 (via 1% Antibiotic-Antimycotic in isolation medium),https://www.nature.com/articles/s41598-024-75038-4
 VI29,2014,Rabies virus (PV strain),BSR (Baby Hamster Kidney clone),DMEM,10,10,not specified (none detailed),not specified (none detailed),not specified (none detailed),https://pmc.ncbi.nlm.nih.gov/articles/PMC4255371/
 VI30,~2020-2023,Influenza A (IAV clinical/swine isolates),MDCK (various lines),EMEM or DMEM/MEM-α,5-10,0-2 (often serum-free + TPCK-trypsin),100,0.1,0 (or variable; some use gentamicin/nystatin),e.g., https://pmc.ncbi.nlm.nih.gov/articles/PMC12964720/ or similar MDCK flu isolation papers (many variants)
+VI31,2006,tickborne arboviruses (Dugbe virus, Thogoto, Bhanja, etc.),Vero,MEM,10,5,100,0.1,0.00025 (1 μL/mL of standard stock),https://wwwnc.cdc.gov/eid/article/12/7/05-1331_article
+VI32,2020,FHV-1 (feline herpesvirus-1),CRFK (primary; also tested Vero/MDCK/BHK-21 etc.),DMEM,10,3,standard (not numerically specified; typical 100/0.1/0.00025),standard (not numerically specified),standard (not numerically specified),https://journal-jbv.apub.kr/articles/xml/eALz/
+VI33,2023,MERS-CoV,Vero E6,DMEM,10,not explicitly reduced (fresh DMEM added post-wash; typical maintenance 2%),100 (from 1× Gibco Antibiotic-Antimycotic),0.1 (from 1× Gibco Antibiotic-Antimycotic),0.00025 (from 1× Gibco Antibiotic-Antimycotic),https://pmc.ncbi.nlm.nih.gov/articles/PMC10500840/
+VI34,2024,CAV-2 (canine adenovirus type 2 variant),MDCK,DMEM,10,not explicitly detailed (maintenance implied post-1 h adsorption),standard (pen/strep/ampho included),standard,standard,https://www.kjvr.org/journal/view.php?number=3970
+VI35,~2006-2010 (protocol representative),MERS-CoV,Vero (also LLC-MK2 or Huh-7 possible),DMEM,10 (assumed ATCC/standard growth),2,100 (1% Pen/Strep),0.1 (1% Pen/Strep),not used (or variable),https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.05.02_MERS-CoV.pdf
+VI36,2023,CHIKV (chikungunya virus),Vero (ATCC CCL-81),DMEM,10,2 (typical post-inoculation maintenance),100 (from 1% antibiotics/antimycotics),0.1 (from 1% antibiotics/antimycotics),0.00025 (from 1% antibiotics/antimycotics),https://www.sciencedirect.com/science/article/pii/S1931524422002808
 
 *some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
 + hernorrhagic fever with renal syndrome
