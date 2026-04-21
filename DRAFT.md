@@ -13,6 +13,10 @@ CLSI M41a [10]:
 	- section “5.3.2 Maintenance”: “Refeed monolayers that are at 75% or greater confluence with fresh maintenance medium containing a low concentration of FBS (e.g., 2%) when the medium color indicates that the pH is below 7.0 (yellow-orange to yellow).”
 	- section “5.4.1 Medium Composition”: “Typically 10% FBS is used for growth medium intended for the propagation of cell culture monolayers, while a concentration of 1 to 3% is utilized to maintain subconfluent to confluent monolayers both before and after inoculation.”
 	- section “7.1.2 Preinoculation Assessment of Monolayers”: “Inspect cell culture microscopically and macroscopically as described in Section 5.3.1 just prior to specimen inoculation. In summary: the cell culture medium must not be cloudy or turbid; cells should be adherent and healthy in appearance; and the monolayer should be 75 to 90% confluent, but not overgrown.”
+Others:
+	- Who is this?
+		- VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLAM derivatives),DMEM,10,2,100,0.1,0 (1% of 10000 IU/ml pen + 10 mg/ml strep stock),https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b (protocol; similar in multiple PPRV papers)
+
 Guidelines stating CPE is the primary detection method for viral presence:
 	- ATCC Virology Culture Guide: section “Viral authentication and viability testing”
 	- CLSI M41a: section “7.4.2 Viral Effects”
