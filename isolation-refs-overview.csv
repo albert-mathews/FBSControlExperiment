@@ -22,6 +22,11 @@ VI33,2023,MERS-CoV,Vero E6,DMEM,10,not explicitly reduced (fresh DMEM added post
 VI34,2024,CAV-2 (canine adenovirus type 2 variant),MDCK,DMEM,10,not explicitly detailed (maintenance implied post-1 h adsorption),standard (pen/strep/ampho included),standard,standard,https://www.kjvr.org/journal/view.php?number=3970
 VI35,~2006-2010 (protocol representative),MERS-CoV,Vero (also LLC-MK2 or Huh-7 possible),DMEM,10 (assumed ATCC/standard growth),2,100 (1% Pen/Strep),0.1 (1% Pen/Strep),not used (or variable),https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.05.02_MERS-CoV.pdf
 VI36,2023,CHIKV (chikungunya virus),Vero (ATCC CCL-81),DMEM,10,2 (typical post-inoculation maintenance),100 (from 1% antibiotics/antimycotics),0.1 (from 1% antibiotics/antimycotics),0.00025 (from 1% antibiotics/antimycotics),https://www.sciencedirect.com/science/article/pii/S1931524422002808
+VI37,2020,FHV-1 (feline herpesvirus-1),CRFK,DMEM,10,3,not provided,not provided,not provided,https://journal-jbv.apub.kr/articles/xml/eALz/
+VI38,2022,SARS-CoV-2,Vero E6,DMEM (high-glucose),10,0 (FBS-free + trypsin),100 (from 100× stock),0.1 (from 100× stock),not provided,https://link.springer.com/article/10.1007/s00705-021-05343-0
+VI39,~2025,Oita virus (rhabdovirus),Vero / Vero-RcACE2 / VeroE6/TMPRSS2 / A549 / BHK,DMEM,10,2,10000 U/ml (stock; standard final ~100 IU/ml),10 mg/ml (stock; standard final ~0.1 mg/ml),not provided,https://journals.asm.org/doi/10.1128/spectrum.03158-25
+VI40,2022,RSV (respiratory syncytial virus),HEp-2,MEM,10**,2,100 (1% of 10000 U/ml stock),0.1 (1% of 10000 U/ml stock),0.00025 (25 μg/ml stock),https://pmc.ncbi.nlm.nih.gov/articles/PMC9006923/
+VI41,2007,West Nile virus (small plaque variant),Vero,MEM,10,2,not provided,not provided,not provided,https://www.sciencedirect.com/science/article/pii/S0042682207004151
 
 *some studies use many cell types. in these cases the primary cell type used for isolation cultures is listed.
 + hernorrhagic fever with renal syndrome
