@@ -11,5 +11,5 @@ you are to extract the following information.
 	5.2-penicillin
 	5.3-Amphotericin B
 	5.4-Streptomycin
-	5.5 other. list any other regaents and their concentrations.
-6-list the base/basal meduim used for the growth medium. e.g. EMEM, DMEM, RPMI 1640, etc.
+	5.5 other. list any other reagents and their concentrations.
+6-list the base/basal medium used for the growth medium. e.g. EMEM, DMEM, RPMI 1640, etc.
