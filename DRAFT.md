@@ -61,6 +61,9 @@ The CRO descriptions were also reviewed for healthy cell culture descriptors.
 looked for repeated terms 
 AI verified.
 
+### attempt to label all 101 images of the EXP stages
+An attemnpt was made to identify a suitable automated method for detecting CPE in the entire 101 EXP stage image set. The 22 images with descriptions, some indicating CPE were used as the labeled evaluation images set or tsting various AI models on the task of identifying CPE. Unfortunately none of the tools exhibited adequate accuracy to give confidence in their ability to accurately detect CPE in the remaining 82 images of the EXP stage. The consequence of this is that this study relies on the 22 images with CRO descriptions to assess any correlation between FBS % and CPE presence.
+
 ## results
 
 
