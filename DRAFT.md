@@ -13,6 +13,8 @@ CLSI M41a [10]:
 	- section “5.3.2 Maintenance”: “Refeed monolayers that are at 75% or greater confluence with fresh maintenance medium containing a low concentration of FBS (e.g., 2%) when the medium color indicates that the pH is below 7.0 (yellow-orange to yellow).”
 	- section “5.4.1 Medium Composition”: “Typically 10% FBS is used for growth medium intended for the propagation of cell culture monolayers, while a concentration of 1 to 3% is utilized to maintain subconfluent to confluent monolayers both before and after inoculation.”
 	- section “7.1.2 Preinoculation Assessment of Monolayers”: “Inspect cell culture microscopically and macroscopically as described in Section 5.3.1 just prior to specimen inoculation. In summary: the cell culture medium must not be cloudy or turbid; cells should be adherent and healthy in appearance; and the monolayer should be 75 to 90% confluent, but not overgrown.”
+ASM - Cytopathic Effects of Viruses Protocols
+	- page 9 "Carefully remove growth medium from cells taking care not to touch the dish to any surfaces to avoid contamination; try to avoid leaving residual medium around edges of wells. Add 1 ml of maintenance medium (fresh medium with 2% serum) to each well."
 Others:
 	- Who is this?
 		- VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLAM derivatives),DMEM,10,2,100,0.1,0 (1% of 10000 IU/ml pen + 10 mg/ml strep stock),https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b (protocol; similar in multiple PPRV papers)
@@ -20,6 +22,7 @@ Others:
 Guidelines stating CPE is the primary detection method for viral presence:
 	- ATCC Virology Culture Guide: section “Viral authentication and viability testing”
 	- CLSI M41a: section “7.4.2 Viral Effects”
+	- AMS  Cytopathic Effects of Viruses Protocols: ?
 
 Given the above, it is reasonable to state that in cell culture experiments where a virus is being “isolated,” there are two independent variables being manipulated and one dependent variable being observed:
 	- Independent variables:
@@ -45,7 +48,7 @@ Virus isolation protocols are foundational to biomedical research, including HHS
 
 ## methods
 
-## experiment
+### experiment
 To explore this hypothesis, a control experiment was commissioned through a certified U.S.-based CRO using Vero E6 cells (ATCC-CRL-1586), with no virus added. Two identical paths differed only in FBS: Path A at 10%, Path B at 2%. After preparation (thawing and passaging) and experimental stages (daily imaging), greater CPE-like changes appeared in Path B, shown in over 50 light microscope images (EVOS FL at 10x/20x) and 170 TEM images (Tecnai G2 Spirit BioTWIN). Raw data is on Zenodo [9] for analysis and replication.
 
 ### Identification of standard CPE descriptors
@@ -56,7 +59,7 @@ Characteristic CPE descriptors were extracted from Table 7 of the CLSI M41 Guide
 
 Next, the same mapping procedure was applied to the CRO image descriptions to generate a second incidence table (CLSI descriptor set + image descriptions). Only five of the original ten CLSI descriptors appeared in the CRO descriptions. A sixth term, ``Dying Cells'', emerged directly from the CRO text and was retained as a distinct category (Dy) rather than being forced into the CLSI ``nonspecific degeneration'' bin. The resulting \textit{CPE descriptor set} used for ground truth and all subsequent analyses therefore consisted of: Dying cells (Dy), Rounded (Ro), Vacuolation (V), Detached (D), Granularity (G), and Refractile (Re).
 
-### Indentification of Health cell culture descriptors
+### Indentification of Healthy cell culture descriptors
 The CRO descriptions were also reviewed for healthy cell culture descriptors. 
 looked for repeated terms 
 AI verified.
@@ -68,6 +71,7 @@ An attemnpt was made to identify a suitable automated method for detecting CPE i
 
 
 ## discussion
+-using CLSI, ATCC, and/or ASM CPE refs, and the CRO incidence table, which viruses could have been asserted present in the uninoculated cultures?
 
 
 
