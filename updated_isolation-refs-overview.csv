@@ -29,6 +29,5 @@ NEW3 VI44,2020,Dengue Virus (DENV1-4),Vero,DMEM,10,10,100,0.1,-,https://pmc.ncbi
 
 
 VI26,~2020,PRRSV (porcine reproductive and respiratory syndrome virus),MARC-145 (or similar porcine kidney lines),DMEM,8,2,100,0.1,- (high conc wash step with pen/strep),https://rr-asia.woah.org/app/uploads/2020/11/8-virus-isolation-li-shuo.pdf,Clear
-VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLAM derivatives),DMEM,10,2,100,0.1,0 (1% of 10000 IU/ml pen + 10 mg/ml strep stock),https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b (protocol; similar in multiple PPRV papers),Clear
 VI31,2006,"tickborne arboviruses (Dugbe virus, Thogoto, Bhanja, etc.)",Vero,MEM,10,5,100,0.1,0.00025 (1 μL/mL of standard stock),https://wwwnc.cdc.gov/eid/article/12/7/05-1331_article,Clear
 VI37,2020,FHV-1 (feline herpesvirus-1),CRFK,DMEM,10,3,not provided,not provided,not provided,https://journal-jbv.apub.kr/articles/xml/eALz/,Clear
