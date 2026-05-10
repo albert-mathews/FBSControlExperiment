@@ -1,6 +1,5 @@
 ID, year, virus, cells*, Base Medium, FBS% pre-inoculation, FBS% post-inculcation, penicillin (IU/ml),streptomycin (mg/ml), amphotericin (mg/ml),link
 VI2,2013,SL-CoV-WIV1,Vero E6,DMEM,10,2,200,0.2,0.5,https://pubmed.ncbi.nlm.nih.gov/24172901/
-VI4,1983,HFRS+,Vero E6,EMEM,5-10,1-2,-,-,-,https://pubmed.ncbi.nlm.nih.gov/6134854/
 VI8,2020,SARS-CoV-2,Vero E6,DMEM,10,2,100,-,15,https://pubmed.ncbi.nlm.nih.gov/6134854/
 VI13,2020,SARS-CoV-2,Vero CCL-81,DMEM,5-10,10,200***,0.2***,0.0005***,https://wwwnc.cdc.gov/eid/article/26/6/20-0516_article
 VI14,2019,HRSV,HEP-2,DMEM,10**,2,100,-,100,https://doi.org/10.1016/j.bjid.2019.10.007
@@ -34,9 +33,6 @@ VI43,2006,SARS-CoV,Vero E6,DMEM,5,2,100,0.1,-,https://mhlw-grants.niph.go.jp/sys
 -- Estimated from 1% (v/v) Invitrogen penicillin-streptomycin (standard 100× stock) in Vero growth medium. Amphotericin B: not used.
 ***Estimated from 2× GIBCO antibiotics/antimycotics (standard 100× stock) + 2× penicillin/streptomycin + 2× amphotericin B in Vero resuspension medium for virus isolation (DMEM + 10% FBS)
 VI35 note: i accessed the references listed as sources for the isolation procedure, and neither indicated the growth medium reagents for any stage of cell culture process.
-
-
-VI4: Reported as "1-2%". This is a range and lacks an explicit, unambiguous single value. Highlighted for review.
 
 VI8: The original extraction stated 2% post-inoculation, but the text only mentions 2% for the neutralization assay. During the viral isolation stage, it states: "replaced with fresh culture medium containing antibiotics and 16 μg/ml trypsin." It omits the FBS percentage (likely 0% due to the use of trypsin, but it is ambiguous/missing). Highlighted for review.
 
