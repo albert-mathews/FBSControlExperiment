@@ -4,7 +4,7 @@
 This article identifies virology cell culture methods for virus isolation—particularly the reliance on cytopathic effects (CPE) as a primary indicator of viral presence amid changes in fetal bovine serum (FBS) concentration—as a high-impact research area in need of replication studies. These methods underpin foundational evidence in infectious disease research, including during outbreaks like SARS-CoV-2, and potential confounders could affect interpretations across studies.
 Standard guidelines in virology recommend reducing FBS concentration in cell culture media from approximately 10% during cell growth to 2% during virus propagation phases. These same guidelines position the observance of CPE in inoculated cell cultures as the primary indication of viral presence.
 
-Guidelines recommending reduction of FBS concentration from 10% to 2%:
+Guidelines recommending reduction of FBS concentration simultaneously with innoculation:
 ATCC Virology Culture Guide [11]:
 	- “Viral growth medium is usually supplemented with a lower percentage of serum than cell growth medium, often ranging between 2-10% depending on the virus”
 	- “NOTE 5: For viral inoculation, ATCC recommends decreasing the percentage of serum to 2% as it can interfere with viral attachment. This can vary from strain to strain, and is not applicable for influenza viruses.”

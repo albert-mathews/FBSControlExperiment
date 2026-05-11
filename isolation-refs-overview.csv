@@ -16,7 +16,6 @@ VI30,~2020-2023,Influenza A (IAV clinical/swine isolates) / MDCK (various lines)
 VI32,2020,FHV-1 (feline herpesvirus-1),CRFK (primary; also tested Vero/MDCK/BHK-21 etc.),DMEM,10,3,standard (not numerically specified; typical 100/0.1/0.00025),standard (not numerically specified),standard (not numerically specified),https://journal-jbv.apub.kr/articles/xml/eALz/
 VI33,2023,MERS-CoV,Vero E6,DMEM,10,not explicitly reduced (fresh DMEM added post-wash; typical maintenance 2%),100 (from 1× Gibco Antibiotic-Antimycotic),0.1 (from 1× Gibco Antibiotic-Antimycotic),0.00025 (from 1× Gibco Antibiotic-Antimycotic),https://pmc.ncbi.nlm.nih.gov/articles/PMC10500840/
 VI34,2024,CAV-2 (canine adenovirus type 2 variant),MDCK,DMEM,10,not explicitly detailed (maintenance implied post-1 h adsorption),standard (pen/strep/ampho included),standard,standard,https://www.kjvr.org/journal/view.php?number=3970
-VI35,~2006-2010 (protocol representative),MERS-CoV,Vero (also LLC-MK2 or Huh-7 possible),DMEM,10 (assumed ATCC/standard growth),2,100 (1% Pen/Strep),0.1 (1% Pen/Strep),not used (or variable),https://www.woah.org/fileadmin/Home/eng/Health_standards/tahm/3.05.02_MERS-CoV.pdf
 VI36,2023,CHIKV (chikungunya virus),Vero (ATCC CCL-81),DMEM,10,2 (typical post-inoculation maintenance),100 (from 1% antibiotics/antimycotics),0.1 (from 1% antibiotics/antimycotics),0.00025 (from 1% antibiotics/antimycotics),https://www.sciencedirect.com/science/article/pii/S1931524422002808
 VI38,2022,SARS-CoV-2,Vero E6,DMEM (high-glucose),10,0 (FBS-free + trypsin),100 (from 100× stock),0.1 (from 100× stock),not provided,https://link.springer.com/article/10.1007/s00705-021-05343-0
 VI39,~2025,Oita virus (rhabdovirus),Vero / Vero-RcACE2 / VeroE6/TMPRSS2 / A549 / BHK,DMEM,10,2,10000 U/ml (stock; standard final ~100 IU/ml),10 mg/ml (stock; standard final ~0.1 mg/ml),not provided,https://journals.asm.org/doi/10.1128/spectrum.03158-25
@@ -53,8 +52,6 @@ VI25 (EBOV): Confirmed as ambiguous/range in the text. Flagged for review.
 VI30 (Influenza A): The text specifies culturing "in the presence of TPCK-treated trypsin" but does not explicitly state an FBS percentage for the viral growth media, aligning with the ambiguous "0-2" range. Flagged for review.
 
 VI33 (MERS-CoV) & VI34 (CAV-2): Both articles lack an explicit numeric percentage for the post-inoculation maintenance FBS. Flagged for review.
-
-VI35 (MERS-CoV): The text explicitly confirms: "Add 700 µl of virus culture medium (DMEM with 1% Pen/Strep, 1% sodium pyruvate and 2% fetal calf serum) into each well" post-inoculation. The extracted data (2%) is accurate.
 
 VI36 (CHIKV): The text mentions 2% FBS specifically for the plaque assay and neutralization assay overlays, but for general viral isolation and propagation, it only states that Vero cells in 10% FBS were used. It does not explicitly state that the FBS is reduced to 2% for the propagation/infection phase. Because this relies on an assumption, I have flagged this article for review.
 
