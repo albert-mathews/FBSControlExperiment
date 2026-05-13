@@ -1,0 +1,7 @@
+Institution / Guideline,Context / Goal,Pre-inoculation FBS (growth),Post-inoculation FBS (maintenance),CPE as primary visual endpoint?,Notes
+ATCC Virology Culture Guide,Diagnostic virus isolation,~10%,2%,Yes,"Influenza exception: serum-free or 0% FBS (explicitly recommended to aid viral attachment)"
+CLSI M41-A (Viral Culture),Diagnostic virus isolation,10%,1-3% (typically 2%),Yes,"Maintenance medium required once cells reach 75-90% confluence to slow overgrowth"
+ASM Cytopathic Effects of Viruses Protocols,Diagnostic virus isolation,~10% (standard growth medium),2%,Yes (core focus of protocol),"Explicit instruction to remove growth medium and add maintenance medium (2% serum) at inoculation"
+NEADL / CIRAD PPRV SOP (VI27),Diagnostic virus isolation,10%,2%,Yes,"Explicit wash with PBS followed by addition of maintenance medium (2% FBS) after 1-hour adsorption"
+WOAH Terrestrial Manual (MERS-CoV chapter),Diagnostic virus isolation,10% (growth),2% FCS in virus culture medium,Yes,"CPE monitored daily; RT-PCR often primary in modern use"
+USDA APHIS VIRPRO1013 (9 CFR §§ 113.55/113.46),MSV extraneous-agent safety testing (vaccine seed purity),5-10%,5-20%,Yes (for proving absence of extraneous CPE),"Higher FBS range supports long-term (14-day) monolayer viability; intended MSV is neutralized"
