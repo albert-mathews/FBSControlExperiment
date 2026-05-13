@@ -13,8 +13,13 @@ https://en.wikipedia.org/wiki/ATCC_(company)
 ## Inncoluation
 - “Viral growth medium is usually supplemented with a lower percentage of serum than cell growth medium, often ranging between 2-10% depending on the virus”
 - “NOTE 5: For viral inoculation, ATCC recommends decreasing the percentage of serum to 2% as it can interfere with viral attachment. This can vary from strain to strain, and is not applicable for influenza viruses.”
-## end point
-- section “Viral authentication and viability testing”
+## end points
+see section “Viral authentication and viability testing”
+- CPE
+- Hemagglutination
+- Hemadsorption
+- Sequencing
+- ELISA
 
 ## Discussion
 the ATCC is not explicit about the protocol, it is hidden within the 'Notes'.
@@ -22,7 +27,7 @@ the ATCC is not explicit about the protocol, it is hidden within the 'Notes'.
 ## Overview
 FBS pre-innoculation: 2-10%
 FBS post-innoculation: 2%
-Viral presence indicator: ?
+Is CPE a viral presence indicator: yes
 
 # CLSI M41a
 https://clsi.org/shop/standards/m41/
@@ -36,8 +41,11 @@ https://en.wikipedia.org/wiki/Clinical_and_Laboratory_Standards_Institute
 - section “5.3.2 Maintenance”: “Refeed monolayers that are at 75% or greater confluence with fresh maintenance medium containing a low concentration of FBS (e.g., 2%) when the medium color indicates that the pH is below 7.0 (yellow-orange to yellow).”
 - section “5.4.1 Medium Composition”: “Typically 10% FBS is used for growth medium intended for the propagation of cell culture monolayers, while a concentration of 1 to 3% is utilized to maintain subconfluent to confluent monolayers both before and after inoculation.”
 - section “7.1.2 Preinoculation Assessment of Monolayers”: “Inspect cell culture microscopically and macroscopically as described in Section 5.3.1 just prior to specimen inoculation. In summary: the cell culture medium must not be cloudy or turbid; cells should be adherent and healthy in appearance; and the monolayer should be 75 to 90% confluent, but not overgrown.”
-## end point
-- section “7.4.2 Viral Effects”
+## end points
+see section “7.4.2 Viral Effects”
+- CPE
+- Hemagglutination
+
 ## Discussion
 CLSI describes culture medium with 'cell manuafacturer recommend FBS concentration of FBS'(typically 10%) as 'growth medium'.
 CLSI describes culture medium with 2% FBS concentration as 'maintenance medium'.
@@ -50,7 +58,7 @@ the protocol doesn't explicity dictate that FBS reduction is coincident with inn
 ## Overview
 FBS pre-innoculation: 10%
 FBS post-innoculation: 2%
-Viral presence indicator: ?
+Is CPE a viral presence indicator: yes
 
 # ASM - Cytopathic Effects of Viruses Protocols
 
@@ -61,6 +69,17 @@ https://en.wikipedia.org/wiki/American_Society_for_Microbiology
 ## Innoculation
 - page 9 "Carefully remove growth medium from cells taking care not to touch the dish to any surfaces to avoid contamination; try to avoid leaving residual medium around edges of wells. Add 1 ml of maintenance medium (fresh medium with 2% serum) to each well."
 ## end point
+see section “Theory”
+- CPE
+
+## Discussion
+ASM does not specify the pre-innucultion FBS concentration, therefore we can only make the rational assumption that it cell providers recommended growth meduim. 
+ATCC recommendation for most cell they provide is 10%. 
+
+## Overview
+FBS pre-innoculation: "growth meduim" (assume 10%, see discussion)
+FBS post-innoculation: 2%
+Is CPE a viral presence indicator: yes
 
 ## Virus isolation of peste des petits ruminants virus in cell culture
 https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b
@@ -68,10 +87,13 @@ VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLA
 
 ## insitution description
 
-
 ## Innoculation
 
 ## end point
+
+## Discussion
+
+## Overview
 
 ## Chapter 3.5.2. – Middle East respiratory syndrome (infection of dromedary camels with MERS-CoV)
 was VI35 
@@ -84,3 +106,7 @@ VI35,~2006-2010 (protocol representative),MERS-CoV,Vero (also LLC-MK2 or Huh-7 p
 -section 1.2, step i.g "Retrieve the plate and add 700 µl of virus culture medium (DMEM [Dulbecco’s modified Eagle’s medium] with 1% Pen/Strep, 1% sodium pyruvate and 2% fetal calf serum) into each well. Treated cells are then cultured in a CO2 incubator for 24 hours."
 
 ## end point
+
+## Discussion
+
+## Overview
