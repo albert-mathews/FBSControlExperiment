@@ -15,6 +15,14 @@ CLSI M41a [10]:
 	- section “7.1.2 Preinoculation Assessment of Monolayers”: “Inspect cell culture microscopically and macroscopically as described in Section 5.3.1 just prior to specimen inoculation. In summary: the cell culture medium must not be cloudy or turbid; cells should be adherent and healthy in appearance; and the monolayer should be 75 to 90% confluent, but not overgrown.”
 ASM - Cytopathic Effects of Viruses Protocols
 	- page 9 "Carefully remove growth medium from cells taking care not to touch the dish to any surfaces to avoid contamination; try to avoid leaving residual medium around edges of wells. Add 1 ml of maintenance medium (fresh medium with 2% serum) to each well."
+NEADL-30(LP-01)-F/1
+	- section "2.3 Reagents": "Growth media (DMEM with 10% FBS and 1% antibiotics).
+								Maintenance media (DMEM with 2% FBS and 1% antibiotics)"
+WOAH Terrestrial Manual 2021. Chapter 3.5.2
+	- section "1.2 Isolation in cell cultre": 
+		g) Retrieve the plate and add 700 µl of virus culture medium (DMEM [Dulbecco’s modified Eagle’s medium] with 1% Pen/Strep, 1% sodium pyruvate and 2% fetal calf serum) into each well. Treated cells are then cultured in a CO2 incubator for 24 hours.
+		h) Inoculum is removed after the incubation and 1 ml of fresh virus culture medium is added into each well. Treated cells are then cultured for another 3–5 days.
+
 Others:
 	- Who is this?
 		- VI27,~2020-2021,PPRV (peste des petits ruminants virus),Vero dog-SLAM (Vero/hSLAM derivatives),DMEM,10,2,100,0.1,0 (1% of 10000 IU/ml pen + 10 mg/ml strep stock),https://collaboratif.cirad.fr/alfresco/s/d/workspace/SpacesStore/73d6ddd2-aaa4-4b4f-964e-b88ac7eff05b (protocol; similar in multiple PPRV papers)
@@ -22,7 +30,7 @@ Others:
 Guidelines stating CPE is the primary detection method for viral presence:
 	- ATCC Virology Culture Guide: section “Viral authentication and viability testing”
 	- CLSI M41a: section “7.4.2 Viral Effects”
-	- AMS  Cytopathic Effects of Viruses Protocols: ?
+	- ASM  Cytopathic Effects of Viruses Protocols: literally the title of the doc.
 
 Given the above, it is reasonable to state that in cell culture experiments where a virus is being “isolated,” there are two independent variables being manipulated and one dependent variable being observed:
 	- Independent variables:
@@ -44,6 +52,32 @@ The control experiment offers preliminary evidence: Reduced FBS alone induced CP
 
 Virus isolation protocols are foundational to biomedical research, including HHS and NIH's Generation Gold Standard program for developing beta-propiolactone-inactivated, whole-virus universal vaccines against pandemic-prone viruses like influenza and coronaviruses. These vaccines are designed, iterated, and produced using cell cultures reliant on accurate virus isolation and propagation. If CPE is non-specific due to FBS changes, it could lead to misattributions of viral effects, undermining reproducibility and derailing vaccine candidates, with economic consequences including billions in wasted R&D costs for flawed designs and trillions in broader pandemic losses from delayed or ineffective responses. Replicating this across cell lines/viruses could refine guidelines, enhance specificity, and build trust in virology. Answering this would impact public health by improving virus detection reliability in outbreaks, preventing misdiagnoses, and aiding resource allocation. It would influence cell biology (serum effects), microbiology (isolation standards), and infectious disease epidemiology (pathogen validation).
 
+## rationale provied for deviating from the standat 10% FBS
+
+### ATCC
+section: GROWTH MEDIA FOR TISSUE CULTURE-ADAPTED VIRUSES
+subsection: MEDIA SUPPLEMENTS
+subsubsection: SERUM
+Note 5: FBS "can interfere with viral attachment."
+
+### CLSI
+section "5.3.1.2 Cell Density"
+"Medium with the lower concentration of FBS will maintain cell viability and will slow monolayer overgrowth"
+section “5.4.1 Medium Composition”
+"Serum may also contain specific and nonspecific viral inhibitors and their presence may vary by lot.
+"The lower serum concentration supports cell viability while permitting virus replication."
+
+### ASM
+no rationale.
+
+### NEADL
+no rationale.
+
+### WOAH Terrestrial Manual 2021. Chapter 3.5.2
+no rationale.
+
+### USDA APHIS VIRPRO
+no rationale.
 
 
 ## methods
