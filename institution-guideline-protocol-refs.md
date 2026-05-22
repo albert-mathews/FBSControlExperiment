@@ -139,10 +139,10 @@ World Organisation for Animal Health (WOAH/OIE)
 https://en.wikipedia.org/wiki/World_Organisation_for_Animal_Health
 
 ## Innoculation
--section B.1.2, step i.g "Retrieve the plate and add 700 µl of virus culture medium (DMEM [Dulbecco’s modified Eagle’s medium] with 1% Pen/Strep, 1% sodium pyruvate and 2% fetal calf serum) into each well. Treated cells are then cultured in a CO2 incubator for 24 hours."
+-section 1.2, step i.g "Retrieve the plate and add 700 µl of virus culture medium (DMEM [Dulbecco’s modified Eagle’s medium] with 1% Pen/Strep, 1% sodium pyruvate and 2% fetal calf serum) into each well. Treated cells are then cultured in a CO2 incubator for 24 hours."
 
 ## end point
--section B.1.2 Isolation in cell culture (step i)
+-section 1.2 Isolation in cell culture (step i)
 ## Discussion
 this is just one of many chapters with similar protocols. 
 WOAH_Terrestrial_Manual_EN_2026-05-13.pdf is the latest revision. I couldn't find the same explicit protocol steps there; however, I did not look very hard. 
@@ -160,7 +160,7 @@ that manual has annexes B7 and B8:
 Annex B7. Propagation and maintenance of Vero/hSLAM cell culture (CDC)
 Annex B8. Measles and rubella virus isolation in cell culture [Pending]
 
-It is assumed that the protocol information desired would be in B8, but wont know until it is avvailable.
+It is assumed that the protocol information desired would be in B8, but wont know until it is available.
 
 
 
@@ -168,7 +168,24 @@ It is assumed that the protocol information desired would be in B8, but wont kno
 https://www.aphis.usda.gov/sites/default/files/VIRPRO1013.pdf
 These protocols are intended for testing Master-Seed-Virus (MSV) used for vaccine production.
 The goal is to neutralize the MSV, and the use cell culture and CPE to test for extraneous cytopathogenic agents.
-FBS concentration is changed between growth (5-10%) and maintenance (5-20%) medium.
+
+## insitution description
+United States Department of Agriculture - Animal and PLant Health Inspection Service
+https://www.aphis.usda.gov/
+
+## Innoculation
+2.2.9 Growth Medium
+	1. 900 mL of MEM
+	2. Aseptically add 50-100 mL gamma-irradiated fetal bovine serum (FBS)
+2.2.10 Maintenance Medium
+	1. 900 mL of MEM
+	2. Aseptically add 50-200 mL gamma-irradiated FBS
+
+based on volumes, the growth medium is 5-10% FBS, and the maintenance medium is 5-20% FBS.
+
+## end point
+
+
 
 ## Curious observation
 Institutional cell-culture protocols have evolved in opposite directions for FBS concentration in “maintenance medium” depending on whether the assay’s desired outcome is the presence (positive) or absence (negative) of cytopathic effect (CPE):
@@ -180,3 +197,10 @@ You propose this divergence is the result of long-term, incremental protocol evo
 - Broken incentives in research, publishing, and management that strongly favor “positive” results (successful virus isolation, detectable CPE, productive findings) over negative or null results.
 
 Over time, this creates a feedback loop: protocols that make the preferred outcome easier to achieve become standardized. Low-FBS maintenance reliably increases CPE-like morphology (as demonstrated by your blind Vero E6 experiment and the 2025 uninfected HEK293T studies), so diagnostic/isolation protocols drift toward ever-lower serum. Conversely, safety/purity assays drift toward conditions that minimize non-specific CPE.
+
+
+
+# FDA Guidance for Industry: "Characterization and Qualification of Cell Substrates and Other Biological Materials Used in the Production of Viral Vaccines for Infectious Disease Indications" (February 2010)
+https://www.fda.gov/media/78428/download
+
+Does not specify cell culture details such as FBS concentrations. CPE is one of several end points. 
