@@ -204,3 +204,28 @@ Over time, this creates a feedback loop: protocols that make the preferred outco
 https://www.fda.gov/media/78428/download
 
 Does not specify cell culture details such as FBS concentrations. CPE is one of several end points. 
+
+
+# Manual for the laboratory diagnosis of measles and rubella virus infection
+https://iris.who.int/bitstreams/2b519e86-fc7c-43c1-baf8-2cbf052062a8/download
+
+## insitution description
+World Health Organization (WHO): Expanded Programme on Immunization (EPI) team of the Department of Immunization, Vaccines and Biologicals
+https://en.wikipedia.org/wiki/Expanded_Program_on_Immunization
+
+## Inncoluation
+- "9.4.10 maintenance": "Resuspend cells in 5ml DMEM-PS or DMEM-PSG plus 10% FBS and pipette up and down to break up clumps. Seed cells into flasks containing DMEM-PS or DMEM-PSG plus 10% FBS
+- "9.4.10 maintenance": "Cells should be passaged at least one time each week. Cells can be maintained for several days by switching to medium containing 2% FBS to prevent overgrowth."
+- 9.4.11 Inoculation": "For inoculations, cells should be seeded into 25cm2  tissue culture flasks (T-25). Cells should be at approximately 85-90% of confluency and at least one day after seeding. If cells are overgrown, virus isolation will be unsuccessful. Virus inoculation and subsequent incubation should be in DMEM-PS plus 2% FBS."
+- 9.4.11 Inoculation": "For inoculation of a T-25 flask, (equals virus passage number1), decant growth medium, add 5ml of DMEM-PS plus 2% FBS and 0.5- 1ml of specimen."
+- 9.4.11 Inoculation": "When CPE is visible, continue to feed the cells (replace the medium with fresh DMEM-PS with 2% FBS, if necessary) until the CPE becomes extensive."
+## end points
+- 9.4.11 Inoculation": "When CPE is visible over at least 50-75% of the cell layer, cells can be harvested for preparation of a viral stock (step 5 below)."
+
+## Discussion
+similat procedure and rationale to CLSI-M41a. 2% is rationalized to avcoid over gorwth, but required for inculation step.
+
+## Overview
+FBS pre-innoculation: 10%
+FBS post-innoculation: 2%
+Is CPE a viral presence indicator: yes
