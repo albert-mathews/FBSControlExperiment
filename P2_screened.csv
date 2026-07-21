@@ -1,0 +1,57 @@
+id,year,short_cite,lead_source,useful,reason,fulltext,round,notes
+P2-001,1949,Enders Weller Robbins Science 1949 Lansing TC,seed_enders,Y,Primary virus tissue culture methods with medium detail,Y,1,Nobel-era seed; Science 109:85-87; PDF in wrk/p2_history
+P2-002,1950,Robbins Enders Weller Proc Soc Exp Biol Med CPE 1950,seed_enders,Y,CPE as readable endpoint in tissue culture,Y,1,Foundational CPE paper; PDF in wrk/p2_history
+P2-003,1954,Enders Robbins Weller Nobel lecture 1954,seed_enders,Y,Medium and methods narrative ox serum ultrafiltrate BSS,Y,1,Full text from nobelprize.org PDF
+P2-004,1952,Melnick Riordan protein-free media PSGBM 1952-53,seed_snowball,Y,Primary protein-free lactalbumin medium for polio TC; full PDF,Y,1,Classic methods optimization; Full PDF user named P2-04; re-extracted Round 7
+P2-005,1954,Dulbecco Vogt plaque polio J Exp Med 1954,seed_plaque,Y,Monolayer plaque assay methods context,Y,1,PMC2180341 available; PDF in wrk/p2_history
+P2-006,1955,Melnick Ann NY Acad Sci 1955 tissue culture techniques polio orphan,seed_melnick,Y,Melnick 1955 methods; lactalbumin + 2% calf serum; isolation CPE,Y,9,Diagnostic procedures lineage; Full PDF Round 9
+P2-007,1961,Schmidt Am J Public Health tissue culture diagnostic,seed_manual_line,B,Points to maintenance media and diagnostic TC; PDF not fully extracted,partial,2,PMC1522339
+P2-008,1969,Schmidt in Lennette Diagnostic procedures 4th ed ch2,seed_manual_line,Y,Full Schmidt ch.3 tissue culture technics 4th ed via user screenshot PDF; growth/maintenance recipes with 10-20% then 2% FBS,Y,2,User screenshot PDF of entire ch.3 (book pp ~79-178); chapter is 3 not 2 in this edition; high-confidence extract Round 8
+P2-009,2014,Fenner Cultivation and Assay of Viruses Med Virol,pubmed_fenner,Y,States growth 5-10% FCS then maintenance little or no serum,Y,2,PMC7173454
+P2-010,2006,CLSI M41-A Viral Culture,seed_repo_protocol,Y,End-marker: growth ~10% FBS maintenance 1-3% and CPE primary,Y,2,In-repo; institutional prescription
+P2-011,current,ATCC Virology Culture Guide,seed_repo_protocol,Y,End-marker: lower serum viral medium; NOTE 5 decrease to 2%,Y,2,Web guide; institutional prescription
+P2-012,2007,ASM Suchman Blair CPE Protocols,seed_repo_protocol,Y,End-marker: maintenance medium with 2% serum,Y,2,In-repo PDF
+P2-013,2007,Leland Ginocchio Clin Microbiol Rev cell culture,pubmed_leland,B,Diagnostic culture review; limited explicit serum percent evolution,partial,2,PMC1797634
+P2-014,2016,Hematian et al Osong PHRP traditional modern cell culture,pubmed_hematian,N,no_medium_info,Y,2,History of formats/CPE but no growth vs maintenance serum recipe
+P2-015,2012,Moffat Some Cell Culture Procedures diagnostic virology,pubmed_moffat,Y,States change to maintenance 1% serum or serum-free after about 3 days,Y,2,PMC7149990 snippet; PDF in wrk/p2_history
+P2-016,2010s,UK SMI V_39 Procedure care propagation cell cultures,scholar_smi,Y,End-marker-ish national lab: growth 10% serum maintenance 2%,partial,2,Public Health England SMI PDF
+P2-017,1961,Subramanyam et al WHO vaccinia sheep kidney,scholar_counter,Y,Maintenance EBSS with 10% sheep serum after culture prep,Y,4,Counterexample high-serum maintenance; PDF in wrk/p2_history
+P2-018,1964,Boyle Rift Valley Fever serum-free maintenance DTIC,scholar_counter,Y,Inoculation in serum-free maintenance medium,Y,4,Serum-free infection/maintenance arm; Full PDF user named P2-203 AD0437967; re-extracted Round 7
+P2-019,1958,Science New Maintenance Medium for Cell Culture,scholar_maint,B,Title hit maintenance medium 1958; full virus Isolation methods not verified,N,2,Need fulltext for virus context
+P2-020,2016,Hematian traditional modern cell culture virus diagnosis Osong 2016,user_pdf,N,no_medium_info,Y,7,User PDF as P2-020; same paper family as P2-014; confirmed no growth/maintenance serum recipe
+P2-021,1973,Maverakis carrier cultures HFD maintenance medium,scholar_maint,B,Mentions maintenance medium blind passage; limited extraction,partial,3,Snowball peripheral
+P2-022,current,Wikipedia Eagle MEM,scholar_noise,N,not_virus,Y,2,Media history not virus Isolation methods
+P2-023,2020s,Modern serum-free Vero adaptation rabies etc,pubmed_modern,N,out_of_window,partial,2,Post-institutional process improvement
+P2-024,1950,Weller Enders foreskin embryonic tissues PSGBM,seed_enders,B,Related Enders group culture paper; medium likely similar,partial,1,Not fully extracted
+P2-025,1913,Steinhardt vaccinia cultivation J Infect Dis,seed_history,B,Very early virus in culture; medium composition not extracted,partial,2,Pre-window edge; historical first TC virus claim
+P2-026,1936,Lloyd Theiler Ricci yellow fever tissue culture,seed_history,B,Pre-Enders virus TC; full medium not extracted this pass,partial,2,In-window historically
+P2-027,current,Fenner egg chapter contrast,pubmed_fenner,N,secondary_no_primary_methods,Y,2,Eggs pre-1950s standard; not serum Isolation evolution data
+P2-028,2006,CLSI M41 ANSI preview materials,seed_repo,N,duplicate,partial,2,Same as P2-010
+P2-029,2000s,WOAH APHIS manuals fish mammal,seed_repo,B,Codify growth/maintenance pattern; species-specific end-marker support,partial,2,In-repo isolation_protocols
+P2-030,1953,Dulbecco Vogt CSH problems animal virology plaque,seed_plaque,B,Related plaque methods; medium details not extracted,partial,3,Snowball from Dulbecco
+P2-031,1960,Howes growth cycle poliovirus cite Melnick,scholar_snowball,B,Secondary cite of Melnick growth medium 2% calf serum only,partial,3,Pointer not primary
+P2-032,1990,Gleaves serum substitutes stock viruses,pubmed_counter,N,out_of_window,partial,4,Post-codification serum substitutes
+P2-033,1955-59,Eagle essential medium papers,seed_media,B,Cell growth media science; virus Isolation coupling not primary,partial,2,Separates cell nutrition from Isolation recipe
+P2-034,1950,Morgan Morton Parker Nutrition animal cells synthetic medium 199,seed_enders_cite,Y,Morgan Morton Parker 1950 Medium 199 synthetic medium foundation,Y,9,Cited in Nobel lecture; Full PDF Round 9
+P2-035,1963,Rosenbaum microtitration growth vs maintenance DTIC,scholar_maint,Y,Explicit change growth media to maintenance in conventional tube cultures,Y,3,AD0411928 DTIC; Full PDF user named P2-204 AD0411928; re-extracted Round 7
+P2-036,1960s-70s,Lennette Schmidt Diagnostic procedures editions,seed_manual_line,B,End-marker family of diagnostic manuals,partial,2,Standardization vehicle; User PDF is 2-page AJPH book notice of 4th ed NOT full Schmidt chapter; limited extract; P2-008 now has full chapter superseding notice for media content
+P2-037,1970s,Cumitech ASM Manual Clinical Microbiology historical,seed_manual_line,B,Likely prescribe maintenance; edition-specific extraction incomplete,partial,2,End-marker cluster
+P2-038,2004,Polio Laboratory Manual WHO 2004,seed_modern_manual,N,out_of_window,partial,2,Post-institutional transmission
+P2-039,current,Science conspiracysarah herpes DMEM,scholar_noise,N,not_useful_non_peer,Y,2,Non-primary
+P2-040,current,Primescholars serum-free sequential Vero,scholar_noise,N,out_of_window,partial,4,Modern SFM adaptation
+P2-041,1955,EAS simplified maintenance medium PSGBM,scholar_maint,B,Maintenance medium development; virus Isolation link unclear,partial,2,May be cell maintenance not Isolation recipe; renumbered from P2-020 due to user PDF ID collision
+P2-042,1953,Li Schaeffer Science 1953 simplified polio tissue culture,round7_search,Y,Li Schaeffer 1953 Medium E plasma hydrolysate; horse serum inhibitory,Y,9,PMID 13076203 Science 118:107-109; Melnick cites Li and Schaeffer; want full PDF; Full PDF Round 9
+P2-043,1956,Melnick Opton WHO assay polio neutralizing antibody plastic panels,round7_search,Y,Melnick Opton assay; nutrient medium + 2.0% calf serum; lactalbumin base,Y,9,WHO IRIS assay methods; 2% calf serum mentioned in search snippet for nutrient medium; Full PDF Round 9
+P2-044,1955,Melnick tissue culture methods polio orphan viruses Diagnostic Procedures chapter lineage,round7_search,B,Major methods chapter still not fulltext extracted; related to P2-006,N,7,Keep hunting Diagnostic Procedures editions
+P2-045,1952,Weller Enders Robbins Stoddard methods 1952,round9_snowball,B,Cited by Melnick 1955; Enders-group methods,N,9,Lead from P2-006 refs
+P2-046,1953,Youngner Ward Salk monkey testis culture methods,round9_snowball,B,Cited by Li 1953 and Melnick,N,9,Lead from P2-042
+P2-047,1953,Scherer Syverton Gey HeLa J Exp Med 1953,round9_snowball,B,HeLa continuous line foundational,N,9,Lead from P2-206
+P2-048,1958,Baron Low New Maintenance Medium Cell Culture Science 1958,round9_snowball,B,Schmidt cites new maintenance medium Science 1958,N,9,Related P2-019
+P2-049,1961,Hayflick Moorhead human diploid Exp Cell Res 1961,round9_snowball,B,Diploid strain standard; Schmidt 1972 cites,N,9,Lead from P2-205
+P2-050,1952,Robbins Weller Enders J Immunol 1952 cultivation methods,round9_snowball,B,Enders group methods cited Melnick 1953,N,9,Lead from P2-206
+P2-200,1961,Smith SE maintenance medium liver digest Br J Exp Pathol 1961,user_pdf,Y,Primary paper on serum-free maintenance medium for virus TC,Y,6,User-supplied PDF as P2-200; PDF in wrk/p2_history
+P2-201,1961,Hsiung GD primary cell cultures animal viruses Yale J Biol Med 1961,user_pdf,Y,Mid-century review of primary cell culture virus methods including medium/overlay factors,Y,6,User-supplied PDF as P2-201; PDF in wrk/p2_history
+P2-203,1964,Boyle RVF serum-free HK monolayers DTIC AD0437967 alias P2-018,user_pdf,Y,duplicate_alias_of_P2-018,Y,7,Alias for P2-018; do not double-count in unique useful totals
+P2-204,1963,Rosenbaum microtitration AD0411928 alias P2-035,user_pdf,Y,duplicate_alias_of_P2-035,Y,7,Alias for P2-035; do not double-count in unique useful totals
+P2-205,1972,Schmidt Tissue Culture Laboratory Diagnosis Viral Infections AJCP,user_pdf,Y,Schmidt AJCP 1972 diagnostic TC review; isolation CPE; bibliography leads,Y,9,Full PDF user Round 9
+P2-206,1953,Melnick PSGBM 1953 poliomyelitis virus tissue culture dry tube bottle,user_pdf,Y,Melnick 1953 growth 10% bovine serum+199; wash; serum-free maintenance 199+Earle,Y,9,Full PDF Round 9
