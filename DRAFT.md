@@ -106,6 +106,9 @@ An attemnpt was made to identify a suitable automated method for detecting CPE i
 
 ## discussion
 -using CLSI, ATCC, and/or ASM CPE refs, and the CRO incidence table, which viruses could have been asserted present in the uninoculated cultures?
+-why were inclusions/inclusion bodies or syncytia not mentioned? these typilcally require fixation and staining
+	- **Fenner F**, et al. Cultivation and Assay of Viruses. In: *Medical Virology*. 2014. PMC7173454.
+	- find more refs supporting this.
 
 
 
