@@ -207,3 +207,15 @@ P1-001, 002, 005, 006, 008, 015, 017, 020, 034, 036, 04(=004), 042, 043, 200, 20
 P1-045 Weller et al 1952; P1-046 Youngner Ward Salk; P1-047 Scherer Syverton Gey HeLa 1953;
 P1-048 Baron Low maintenance medium Science 1958; P1-049 Hayflick Moorhead 1961; P1-050 Robbins Weller Enders 1952
 
+---
+
+## Round 10 — Priority-A PDF ingestion (2026-07-22)
+
+**User-supplied PDFs processed:** P1-013, P1-046, P1-047, P1-048, P1-051 (extracts in _notes/).
+
+**Actions:**
+- Screened rows updated to useful Y (046/047/048/051) or B (013).
+- Useful CSV + quotes + synthesis **§7 medium-vs-inoculation history**.
+- No new web search round; focus was full-text extraction of existing refs.
+
+**Key result:** Dual-medium at inoculation step operational by ~1953–54 (Youngner, Scherer, Melnick); Baron 1958 names maintenance + quantifies serum inhibition of polio.
