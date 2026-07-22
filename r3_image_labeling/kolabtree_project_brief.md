@@ -45,7 +45,7 @@ Project overview
 We need independent expert descriptions of light-microscope images (phase contrast) of Vero E6 cell cultures (ATCC CRL-1586). Prefer freelancers with direct experience culturing or imaging this line or closely related Vero lines. The labeled images will be used to train and evaluate AI vision systems.
 
 Image set structure
-You will review micrographs from two separate cell cultures (Culture A and Culture B). Each culture was maintained and imaged on days 1, 2, 3, 4, and 5 (day = day after the experimental passage). Images are phase contrast at 10x or 20x magnification. Images will be grouped by culture and day so you can use day-to-day continuity within each culture.
+You will review micrographs from two separate cell cultures (Culture A and Culture B). Each culture was maintained and imaged on days 1, 2, 3, 4, and 5 (day = day after the experimental passage). Images are phase contrast at 10x or 20x magnification (see scale bar in each image). Images will be grouped by culture and day so you can use day-to-day continuity within each culture.
 
 Scope of work  
 1. For each image, write a professional morphology description based only on what is visible and your cell-culture / microscopy experience with adherent monolayers such as Vero E6 (e.g. monolayer integrity, confluence/density, cell shape, rounding, detachment, debris, vacuolation, overall culture appearance).  
