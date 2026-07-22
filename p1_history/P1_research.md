@@ -1,4 +1,4 @@
-# P2 historical research protocol
+# P1 historical research protocol
 
 **Status:** Draft plan (v0.1) — execute after Isolation control-tier work is frozen  
 **Related thesis:** Combined CPE non-specificity + particle ontology paper  
@@ -6,9 +6,9 @@
 
 ---
 
-## 1. What P2 is (and is not)
+## 1. What P1 is (and is not)
 
-### 1.1 Motivating interest (P2)
+### 1.1 Motivating interest (P1)
 
 If standard Isolation practice couples **reduced serum / nutrient enrichment** at or after inoculation with **culture endpoints** (especially CPE) that are treated as evidence of virus, a natural historical question is:
 
@@ -49,7 +49,7 @@ This interest is **reader-facing and discovery-oriented**. It is **not** a pass/
 | **End** | Appearance of **institutional / standard laboratory protocols** that **prescribe** growth vs maintenance (or reduced enrichment at infection) as standard Isolation practice |
 
 **Operational end criterion (not a fixed year in advance):**  
-Stop *forward expansion* of the evolution search once multiple independent standard sources treat the medium step as **prescribed practice** (manuals, national lab procedures, widely adopted diagnostic guidance). Record the earliest clear institutional hits as **window-end markers**. Literature after that point is out of scope for P2 *evolution* search (it is transmission/codification). Contemporary guidelines (CLSI, ATCC, ASM, etc.) remain in the **main paper** as current practice, not as P2 discovery targets.
+Stop *forward expansion* of the evolution search once multiple independent standard sources treat the medium step as **prescribed practice** (manuals, national lab procedures, widely adopted diagnostic guidance). Record the earliest clear institutional hits as **window-end markers**. Literature after that point is out of scope for P1 *evolution* search (it is transmission/codification). Contemporary guidelines (CLSI, ATCC, ASM, etc.) remain in the **main paper** as current practice, not as P1 discovery targets.
 
 ### 2.2 Inclusion (content)
 
@@ -66,7 +66,7 @@ Also include:
 ### 2.3 Exclusion (default)
 
 - Pure animal passage / egg work with no tissue or cell culture arm (unless used only as contrast, logged separately).  
-- Modern Isolation papers already in the Isolation corpus (post-institutional; wrong window for P2).  
+- Modern Isolation papers already in the Isolation corpus (post-institutional; wrong window for P1).  
 - Pure EV / purification literature (other workstream).  
 - News, blogs, social media.  
 - Sources with zero usable medium information after full-text check → **screened not useful** (still logged).
@@ -96,7 +96,7 @@ These rules are mandatory for every round.
 5. **Do not upgrade silence** into “they must have used 2% FBS.” Unknown stays unknown.  
 6. **Negative search is a result:** document strategies that returned no hits or only not-useful hits.  
 7. **Devil’s advocate pass** each major round (Section 8): actively seek counterexamples to any emerging pattern.  
-8. **Separation of roles when possible:** extractor ≠ sole interpreter of “what this means for P2.” Interpretation memo only after a round’s extraction table is frozen.  
+8. **Separation of roles when possible:** extractor ≠ sole interpreter of “what this means for P1.” Interpretation memo only after a round’s extraction table is frozen.  
 9. **Stop rules are about thoroughness, not about liking the answer** (Section 9).
 
 ---
@@ -105,16 +105,16 @@ These rules are mandatory for every round.
 
 | Artifact | Purpose |
 |----------|---------|
-| `P2_research.md` | This protocol (versioned) |
-| `P2_search_log.md` | Round-by-round queries, databases, dates, hit counts, decisions |
-| `P2_screened.csv` | Every citation screened: id, year, cite, source_of_lead, useful (Y/N/B), reason, fulltext_obtained (Y/N) |
-| `P2_useful.csv` | Useful sources only + extraction fields (Section 6) |
-| `P2_quotes.md` or per-id notes | Verbatim medium / rationale / endpoint quotes (searchable) |
-| `P2_not_useful_notes.md` | Optional longer notes for borderline exclusions |
-| `P2_synthesis.md` | Written only after ≥2 completed rounds; patterns + limits + open questions |
-| PDF/HTML store | e.g. `wrk/p2_history/` (mirrors Isolation practice layout) |
+| `P1_research.md` | This protocol (versioned) |
+| `P1_search_log.md` | Round-by-round queries, databases, dates, hit counts, decisions |
+| `P1_screened.csv` | Every citation screened: id, year, cite, source_of_lead, useful (Y/N/B), reason, fulltext_obtained (Y/N) |
+| `P1_useful.csv` | Useful sources only + extraction fields (Section 6) |
+| `P1_quotes.md` or per-id notes | Verbatim medium / rationale / endpoint quotes (searchable) |
+| `P1_not_useful_notes.md` | Optional longer notes for borderline exclusions |
+| `P1_synthesis.md` | Written only after ≥2 completed rounds; patterns + limits + open questions |
+| PDF/HTML store | e.g. `p1_history/refs/` (mirrors Isolation practice layout) |
 
-IDs: `P2-001`, `P2-002`, … assigned at first screen, never reused.
+IDs: `P1-001`, `P1-002`, … assigned at first screen, never reused.
 
 ---
 
@@ -125,7 +125,7 @@ The search is **iterative by design**. Each round has a fixed aim, a pre-registe
 ### Round 0 — Scaffold (no deep claims)
 
 **Aim:** Freeze protocol version, create empty CSVs/logs, define inclusion rules.  
-**Outputs:** This file v0.1; empty `P2_search_log.md`, `P2_screened.csv`, `P2_useful.csv`.  
+**Outputs:** This file v0.1; empty `P1_search_log.md`, `P1_screened.csv`, `P1_useful.csv`.  
 **Check:** Independent read of protocol for ambiguous inclusion language; revise to v0.2 if needed **before** Round 1.
 
 ---
@@ -215,8 +215,8 @@ Run in **both** title/abstract and, where available, full text. Combine with dat
 
 1. **Title/abstract screen** → include / exclude / unclear.  
 2. **Full text** for include + unclear.  
-3. Append row to `P2_screened.csv`.  
-4. If useful → extract to `P2_useful.csv` + quotes.  
+3. Append row to `P1_screened.csv`.  
+4. If useful → extract to `P1_useful.csv` + quotes.  
 5. Cap per query if hits > N (e.g. 100): sort by relevance/date; screen top N and log that a cap was applied; later round may raise cap.
 
 **Round 2 complete when:** All query families run on at least PubMed + one full-text source + one book/manual source; screened table has every decided hit; counterexample family D has been run.
@@ -270,7 +270,7 @@ Also:
 - Second person or fresh agent session receives **only** this protocol + empty templates (not the synthesis conclusions).  
 - Re-runs a **subset** of Round 2 queries (pre-specified sample).  
 - Compares: overlap of useful IDs, disagreements on useful Y/N, extraction field mismatches.  
-- Log agreement rates in `P2_search_log.md`.
+- Log agreement rates in `P1_search_log.md`.
 
 **Optional Round 6:** Targeted archives (university special collections, national library scans) if Round 5 shows manuals are the gap.
 
@@ -278,11 +278,11 @@ Also:
 
 ## 6. Extraction schema (useful sources)
 
-One row per useful source in `P2_useful.csv`. Unknown = `unknown` / empty with `notes`, never guessed.
+One row per useful source in `P1_useful.csv`. Unknown = `unknown` / empty with `notes`, never guessed.
 
 | Field | Description |
 |-------|-------------|
-| `id` | P2-### |
+| `id` | P1-### |
 | `year` | Publication year |
 | `authors` | Short |
 | `title` | Full |
@@ -311,14 +311,14 @@ One row per useful source in `P2_useful.csv`. Unknown = `unknown` / empty with `
 
 ---
 
-## 7. Screening codes (`P2_screened.csv`)
+## 7. Screening codes (`P1_screened.csv`)
 
 | Field | Values |
 |-------|--------|
-| `id` | P2-### |
+| `id` | P1-### |
 | `year` | |
 | `short_cite` | |
-| `lead_source` | seed / pubmed_q# / scholar_q# / snowball_from_P2-### / manual / other |
+| `lead_source` | seed / pubmed_q# / scholar_q# / snowball_from_P1-### / manual / other |
 | `useful` | **Y** / **N** / **B** (borderline) |
 | `reason` | One line (required for N and B) |
 | `fulltext` | Y / N / paywall / not_found |
@@ -345,12 +345,12 @@ One row per useful source in `P2_useful.csv`. Unknown = `unknown` / empty with `
 
 ### 8.2 Cross-round QC
 
-- After Round 2 and after Round 4: reconcile `P2_useful.csv` with quotes file.  
+- After Round 2 and after Round 4: reconcile `P1_useful.csv` with quotes file.  
 - Any change to a previously frozen row requires `amendment_note` + date (no silent edits).
 
 ### 8.3 Adversarial QC (pattern-level)
 
-Before writing `P2_synthesis.md`:
+Before writing `P1_synthesis.md`:
 
 1. List 3 descriptive claims you are tempted to make.  
 2. For each, point to **supporting** row IDs and **contradicting or limiting** row IDs.  
@@ -364,7 +364,7 @@ Before writing `P2_synthesis.md`:
 
 ## 9. Stop rules and “we did our best” criteria
 
-Declare P2 search **provisionally complete** only when **all** hold:
+Declare P1 search **provisionally complete** only when **all** hold:
 
 1. Rounds **0–4** finished and logged.  
 2. Round **5 replication subset** finished and agreement logged.  
@@ -390,13 +390,13 @@ After provisional completion, further rounds are **optional reopenings** with a 
 | Vocabulary discovered late (e.g. period synonym) | New query family; do not retrofit old rounds without re-screen |
 | Disagreement between extractors | Freeze contested rows; third pass |
 
-Each reopening appends to `P2_search_log.md` and never deletes prior screened N rows (audit trail).
+Each reopening appends to `P1_search_log.md` and never deletes prior screened N rows (audit trail).
 
 ---
 
 ## 11. From data to prose (only after extraction freezes)
 
-`P2_synthesis.md` structure (suggested):
+`P1_synthesis.md` structure (suggested):
 
 1. **Methods of the historical search** (rounds, databases, counts screened / useful).  
 2. **Descriptive patterns** (with ID citations only).  
@@ -409,7 +409,7 @@ Main paper text should cite synthesis + key primary IDs, not re-run ad hoc Schol
 
 ---
 
-## 12. Resource query checklist (copy into each round of `P2_search_log.md`)
+## 12. Resource query checklist (copy into each round of `P1_search_log.md`)
 
 ```text
 Round #:
@@ -425,8 +425,8 @@ Operator:
 [ ] WHO/national manuals (end markers)
 [ ] Family D counterexamples run
 [ ] Hit lists saved or counts logged
-[ ] All decisions → P2_screened.csv
-[ ] All Y → P2_useful.csv + quotes
+[ ] All decisions → P1_screened.csv
+[ ] All Y → P1_useful.csv + quotes
 [ ] Second-reader sample QC
 [ ] Round complete criteria met (see Section 5)
 ```
@@ -441,7 +441,7 @@ Operator:
 | **Searcher** | Runs queries; fills screened CSV |
 | **Extractor** | Full-text quotes + useful CSV |
 | **Checker** | Re-screens sample; verifies quotes |
-| **Synthesizer** | Writes P2_synthesis only after freeze (can be same person on a later day, not same sitting as extraction) |
+| **Synthesizer** | Writes P1_synthesis only after freeze (can be same person on a later day, not same sitting as extraction) |
 
 Grok/agent sessions: use **separate sessions** for (a) search listing, (b) extraction, (c) adversarial counterexample hunt, (d) synthesis — to reduce same-context confirmation drift. Hand each session this protocol and the relevant CSV only.
 
@@ -449,22 +449,22 @@ Grok/agent sessions: use **separate sessions** for (a) search listing, (b) extra
 
 ## 14. Relationship to the rest of the paper
 
-| Workstream | Depends on P2? |
+| Workstream | Depends on P1? |
 |------------|----------------|
 | CRO / FBS control experiment | No |
 | Institutional protocol tables (current) | No (but supplies end-marker candidates) |
 | Isolation-ref control tiers (A–D) | No |
 | EV / particle layer | No |
-| Discussion: historical lock-in interest | **Yes — uses P2 synthesis** |
+| Discussion: historical lock-in interest | **Yes — uses P1 synthesis** |
 
-P2 can be incomplete without blocking the empirical Isolation/CPE core. It should not delay those results.
+P1 can be incomplete without blocking the empirical Isolation/CPE core. It should not delay those results.
 
 ---
 
 ## 15. Immediate next steps (when you say go)
 
-1. Create empty `P2_search_log.md`, `P2_screened.csv`, `P2_useful.csv` headers.  
-2. Create `wrk/p2_history/` for PDFs.  
+1. Create empty `P1_search_log.md`, `P1_screened.csv`, `P1_useful.csv` headers.  
+2. Create `p1_history/refs/` for PDFs.  
 3. Round 0 protocol freeze (edit this file if you want stricter language limits, hit caps, or mandatory non-English).  
 4. Round 1 seed list from papers already known + repo manuals as end-marker candidates only.  
 5. Do not write historical conclusions in `DRAFT.md` until Round 2+ extraction exists.
@@ -479,4 +479,4 @@ P2 can be incomplete without blocking the empirical Isolation/CPE core. It shoul
 
 ---
 
-*End of P2 research protocol. Iterate before Round 1 execution.*
+*End of P1 research protocol. Iterate before Round 1 execution.*

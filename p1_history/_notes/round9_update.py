@@ -2,7 +2,7 @@ import csv
 from pathlib import Path
 
 # --- Screened updates ---
-rows = list(csv.DictReader(open("P2_screened.csv", encoding="utf-8")))
+rows = list(csv.DictReader(open("P1_screened.csv", encoding="utf-8")))
 fields = list(rows[0].keys())
 by = {r["id"]: r for r in rows}
 
@@ -33,42 +33,42 @@ def set_y(rid, reason, notes, year="", short=""):
 
 
 set_y(
-    "P2-006",
+    "P1-006",
     "Melnick 1955 methods; lactalbumin + 2% calf serum; isolation CPE",
     "Full PDF Round 9",
     "1955",
     "Melnick Ann NY Acad Sci 1955 tissue culture techniques polio orphan",
 )
 set_y(
-    "P2-034",
+    "P1-034",
     "Morgan Morton Parker 1950 Medium 199 synthetic medium foundation",
     "Full PDF Round 9",
     "1950",
     "Morgan Morton Parker Nutrition animal cells synthetic medium 199",
 )
 set_y(
-    "P2-042",
+    "P1-042",
     "Li Schaeffer 1953 Medium E plasma hydrolysate; horse serum inhibitory",
     "Full PDF Round 9",
     "1953",
     "Li Schaeffer Science 1953 simplified polio tissue culture",
 )
 set_y(
-    "P2-043",
+    "P1-043",
     "Melnick Opton assay; nutrient medium + 2.0% calf serum; lactalbumin base",
     "Full PDF Round 9",
     "1956",
     "Melnick Opton WHO assay polio neutralizing antibody plastic panels",
 )
 set_y(
-    "P2-205",
+    "P1-205",
     "Schmidt AJCP 1972 diagnostic TC review; isolation CPE; bibliography leads",
     "Full PDF user Round 9",
     "1972",
     "Schmidt Tissue Culture Laboratory Diagnosis Viral Infections AJCP",
 )
 set_y(
-    "P2-206",
+    "P1-206",
     "Melnick 1953 growth 10% bovine serum+199; wash; serum-free maintenance 199+Earle",
     "Full PDF Round 9",
     "1953",
@@ -77,7 +77,7 @@ set_y(
 
 leads = [
     (
-        "P2-045",
+        "P1-045",
         "1952",
         "Weller Enders Robbins Stoddard methods 1952",
         "round9_snowball",
@@ -85,10 +85,10 @@ leads = [
         "Cited by Melnick 1955; Enders-group methods",
         "N",
         "9",
-        "Lead from P2-006 refs",
+        "Lead from P1-006 refs",
     ),
     (
-        "P2-046",
+        "P1-046",
         "1953",
         "Youngner Ward Salk monkey testis culture methods",
         "round9_snowball",
@@ -96,10 +96,10 @@ leads = [
         "Cited by Li 1953 and Melnick",
         "N",
         "9",
-        "Lead from P2-042",
+        "Lead from P1-042",
     ),
     (
-        "P2-047",
+        "P1-047",
         "1953",
         "Scherer Syverton Gey HeLa J Exp Med 1953",
         "round9_snowball",
@@ -107,10 +107,10 @@ leads = [
         "HeLa continuous line foundational",
         "N",
         "9",
-        "Lead from P2-206",
+        "Lead from P1-206",
     ),
     (
-        "P2-048",
+        "P1-048",
         "1958",
         "Baron Low New Maintenance Medium Cell Culture Science 1958",
         "round9_snowball",
@@ -118,10 +118,10 @@ leads = [
         "Schmidt cites new maintenance medium Science 1958",
         "N",
         "9",
-        "Related P2-019",
+        "Related P1-019",
     ),
     (
-        "P2-049",
+        "P1-049",
         "1961",
         "Hayflick Moorhead human diploid Exp Cell Res 1961",
         "round9_snowball",
@@ -129,10 +129,10 @@ leads = [
         "Diploid strain standard; Schmidt 1972 cites",
         "N",
         "9",
-        "Lead from P2-205",
+        "Lead from P1-205",
     ),
     (
-        "P2-050",
+        "P1-050",
         "1952",
         "Robbins Weller Enders J Immunol 1952 cultivation methods",
         "round9_snowball",
@@ -140,7 +140,7 @@ leads = [
         "Enders group methods cited Melnick 1953",
         "N",
         "9",
-        "Lead from P2-206",
+        "Lead from P1-206",
     ),
 ]
 for L in leads:
@@ -157,14 +157,14 @@ for L in leads:
     }
 
 ordered = sorted(by.values(), key=lambda r: r["id"])
-with open("P2_screened.csv", "w", encoding="utf-8", newline="") as f:
+with open("P1_screened.csv", "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
     w.writeheader()
     for r in ordered:
         w.writerow({k: r.get(k, "") for k in fields})
 
 # --- Useful ---
-urows = list(csv.DictReader(open("P2_useful.csv", encoding="utf-8")))
+urows = list(csv.DictReader(open("P1_useful.csv", encoding="utf-8")))
 ufields = list(urows[0].keys())
 uby = {r["id"]: r for r in urows}
 
@@ -175,7 +175,7 @@ def up(d):
 
 up(
     {
-        "id": "P2-006",
+        "id": "P1-006",
         "year": "1955",
         "authors": "Melnick JL",
         "title": "Tissue culture techniques and their application to original isolation, growth, and assay of poliomyelitis and orphan viruses",
@@ -204,7 +204,7 @@ up(
 
 up(
     {
-        "id": "P2-034",
+        "id": "P1-034",
         "year": "1950",
         "authors": "Morgan JF, Morton HJ, Parker RC",
         "title": "Nutrition of Animal Cells in Tissue Culture. I. Initial Studies on a Synthetic Medium",
@@ -233,7 +233,7 @@ up(
 
 up(
     {
-        "id": "P2-042",
+        "id": "P1-042",
         "year": "1953",
         "authors": "Li CP, Schaeffer M",
         "title": "A Simplified Method for Cultivation of Poliomyelitis Virus in Tissue Culture",
@@ -262,7 +262,7 @@ up(
 
 up(
     {
-        "id": "P2-043",
+        "id": "P1-043",
         "year": "1956",
         "authors": "Melnick JL, Opton EM",
         "title": "Assay of poliomyelitis neutralizing antibody in disposable plastic panels",
@@ -291,7 +291,7 @@ up(
 
 up(
     {
-        "id": "P2-205",
+        "id": "P1-205",
         "year": "1972",
         "authors": "Schmidt NJ",
         "title": "Tissue Culture in the Laboratory Diagnosis of Viral Infections",
@@ -320,7 +320,7 @@ up(
 
 up(
     {
-        "id": "P2-206",
+        "id": "P1-206",
         "year": "1953",
         "authors": "Melnick JL",
         "title": "Poliomyelitis Virus in Tissue Culture (dry-tube and bottle culture methods)",
@@ -348,12 +348,12 @@ up(
 )
 
 ordered = sorted(uby.values(), key=lambda r: r["id"])
-with open("P2_useful.csv", "w", encoding="utf-8", newline="") as f:
+with open("P1_useful.csv", "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=ufields, extrasaction="ignore")
     w.writeheader()
     for r in ordered:
         w.writerow({k: r.get(k, "") for k in ufields})
 
-print("screened", len(list(csv.DictReader(open("P2_screened.csv", encoding="utf-8")))))
+print("screened", len(list(csv.DictReader(open("P1_screened.csv", encoding="utf-8")))))
 print("useful", len(ordered))
 print([r["id"] for r in ordered])

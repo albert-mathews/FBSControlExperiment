@@ -1,7 +1,7 @@
 import csv
 from pathlib import Path
 
-rows = list(csv.DictReader(open("P2_useful.csv", encoding="utf-8")))
+rows = list(csv.DictReader(open("P1_useful.csv", encoding="utf-8")))
 fields = list(rows[0].keys())
 by_id = {r["id"]: r for r in rows}
 
@@ -12,7 +12,7 @@ def upsert(d):
 
 upsert(
     {
-        "id": "P2-001",
+        "id": "P1-001",
         "year": "1949",
         "authors": "Enders JF, Weller TH, Robbins FC",
         "title": "Cultivation of the Lansing strain of poliomyelitis virus in cultures of various human embryonic tissues",
@@ -35,13 +35,13 @@ upsert(
         "extractor": "grok-primary",
         "extract_date": "2026-07-20",
         "confidence": "high",
-        "notes": "Full PDF re-extract from wrk/p2_history; confirms Nobel lecture medium description",
+        "notes": "Full PDF re-extract from p1_history/refs; confirms Nobel lecture medium description",
     }
 )
 
 upsert(
     {
-        "id": "P2-002",
+        "id": "P1-002",
         "year": "1950",
         "authors": "Robbins FC, Enders JF, Weller TH",
         "title": "Cytopathogenic effect of poliomyelitis viruses in vitro on human embryonic tissues",
@@ -70,7 +70,7 @@ upsert(
 
 upsert(
     {
-        "id": "P2-005",
+        "id": "P1-005",
         "year": "1954",
         "authors": "Dulbecco R, Vogt M",
         "title": "Plaque formation and isolation of pure lines with poliomyelitis viruses",
@@ -99,7 +99,7 @@ upsert(
 
 upsert(
     {
-        "id": "P2-015",
+        "id": "P1-015",
         "year": "1969approx",
         "authors": "Moffat MAJ",
         "title": "Some Cell Culture Procedures in Diagnostic Medical Virology",
@@ -128,7 +128,7 @@ upsert(
 
 upsert(
     {
-        "id": "P2-017",
+        "id": "P1-017",
         "year": "1961",
         "authors": "Subramanyam P et al",
         "title": "Cultivation of vaccinia virus in sheep kidney cell cultures",
@@ -157,7 +157,7 @@ upsert(
 
 upsert(
     {
-        "id": "P2-200",
+        "id": "P1-200",
         "year": "1961",
         "authors": "Smith SE",
         "title": "A Maintenance Medium for Tissue Culture Virus Studies",
@@ -180,13 +180,13 @@ upsert(
         "extractor": "grok-primary",
         "extract_date": "2026-07-20",
         "confidence": "high",
-        "notes": "User-supplied as P2-200; defines serum-free maintenance vs serum growth",
+        "notes": "User-supplied as P1-200; defines serum-free maintenance vs serum growth",
     }
 )
 
 upsert(
     {
-        "id": "P2-201",
+        "id": "P1-201",
         "year": "1961",
         "authors": "Hsiung GD",
         "title": "Applications of Primary Cell Cultures in the Study of Animal Viruses",
@@ -209,7 +209,7 @@ upsert(
         "extractor": "grok-primary",
         "extract_date": "2026-07-20",
         "confidence": "high",
-        "notes": "User-supplied as P2-201; serum as inhibitor supports low/no-serum logic",
+        "notes": "User-supplied as P1-201; serum as inhibitor supports low/no-serum logic",
     }
 )
 
@@ -218,7 +218,7 @@ ordered = sorted(by_id.values(), key=lambda r: r["id"])
 clean = []
 for r in ordered:
     clean.append({k: (r.get(k) or "") for k in fields})
-with open("P2_useful.csv", "w", encoding="utf-8", newline="") as f:
+with open("P1_useful.csv", "w", encoding="utf-8", newline="") as f:
     w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
     w.writeheader()
     w.writerows(clean)
