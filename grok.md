@@ -46,6 +46,8 @@
 
 Numbered folders are streams. Each stream has a **main markdown entrypoint** named after the stream (`r2.md`, `p1.md`, …). That file is the first place to look for scope, status, and **TODOs** for that topic.
 
+Each stream entrypoint also has a **`## Snippets (paper-ready prose)`** section: carefully worded sentences for later drafting (IDs like `P1-S1`, `R2-S1`). Prefer those over improvised strong/dismissive language.
+
 ### 2.2 Top-level layout
 
 ```text
@@ -68,7 +70,7 @@ FBSControlExperiment/
 
 | Stream | Folder | Main file | Topic |
 |--------|--------|-----------|--------|
-| **R1** | `r1_isolation_standards_and_practice/` | *(add `r1.md` if missing)* | Institutional Isolation protocols + Isolation-paper corpus (FBS pre/post, CPE endpoint filter) |
+| **R1** | `r1_isolation_standards_and_practice/` | `r1.md` | Institutional Isolation protocols + Isolation-paper corpus (FBS pre/post, CPE endpoint filter) |
 | **R2** | `r2_negative_controls/` | `r2.md` | Quality/incidence of Isolation-stage negative controls (tiers A–D); uses R1 PDFs |
 | **R3** | `r3_image_labeling/` | `r3.md` | Human (or assisted) labeling of CRO microscope images for CPE-like morphology |
 | **P1** | `p1_history/` | `p1.md` | **Prediction / interest:** published history of serum–nutrient practice → dual media |
@@ -135,6 +137,8 @@ Results: `control-cultures-overview.csv` + `control-cultures-justification-notes
 ### P1 historical research (`p1_history/`)
 
 - Entry: `p1.md` (TODOs). Protocol: `P1_research.md`. Findings: `P1_synthesis.md`, `P1_useful.csv`, `P1_quotes.md`.
+- **Paper close package:** `P1_for_paper.md` (narrative + lean printed cites).
+- **Full public research bibliography:** `P1_screened.csv` + `P1_BIBLIOGRAPHY.md` (DOI/PMID/PMCID/DTIC/other IDs for every screened item; paper points reviewers here).
 - Window: ~**1900 → institutional prescription** of dual growth/maintenance.
 - Variable: **serum/nutrient enrichment** broadly (not only “FBS %”).
 - IDs: **`P1-###`** (screened / useful / notes / PDF filenames).
