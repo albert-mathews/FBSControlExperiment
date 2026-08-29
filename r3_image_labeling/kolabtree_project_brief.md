@@ -94,3 +94,4 @@ Use if you want extra clarity after a freelancer is selected:
 - CRO morphology labels or CPE checklists  
 - Paper thesis / Isolation critique language  
 - Author identity beyond what the platform account already shows (optional preference)
+

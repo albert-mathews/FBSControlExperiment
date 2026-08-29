@@ -1,4 +1,10 @@
 *.tif
 *.png
 *.jpeg
+
+# following are not added to public repo to retain anonimity of freelancers
 university_outreach.md
+/kolabtree_project
+
+# following can be accessed from the experiment results zenodo page.
+CRO Reporting - Light Microscope Image Descriptions.pdf
